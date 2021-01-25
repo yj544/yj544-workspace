@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<script src="javascrip">
+
+</script>
+</head>
+<body>
+	<div class="container">
+	<form action="/login">
+		<label>ID : </label>
+		<input type="text" id="id"><br><br>
+		<label>Password : </label>
+		<input type="text" id="password"><br><br>
+		<input type="submit" value="Submit">
+	</form>
+	<a th:href="@{/resources}">resource list</a>
+	</div>
+</body>
+</html>
